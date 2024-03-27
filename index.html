@@ -17,8 +17,11 @@
         </div>
 
         <div class="music_modal_content">
-            <span class="no_big music_no">O1</span>
-            <span class="no_small music_no">O1</span>
+            <div class="music_no_container">
+
+                <span class="no_big music_no">O1</span>
+                <span class="no_small music_no">O1</span>
+            </div>
 
 
 
@@ -32,35 +35,44 @@
             <div class="music_details">
                 <span class="title" id="title">Comfortably Numb</span>
                 <span class="artist" id="artist">Pink floyd</span>
+
+
+                <div class="progress_bar" id="progress_bar">
+                    <span id="currentTime">0.00</span>
+                    <span id="duration">0.00</span>
+                    <span class="progress" id="progress">
+
+                    </span>
+                </div>
+
+                <audio src="/Ayra-Starr-Commas-(TrendyBeatz.com).mp3" id="audio"></audio>
+                <div class="controls">
+                    <button id="prev" class="action_btn">
+                        <img src="/prev.svg" class="prev" alt="">
+                    </button>
+
+                    <button id="play" class="action_btn action_btn_big">
+                        <img src="/play.svg" class="play" alt="" id="pause_btn">
+                        <img src="/play.svg" class="play" alt="" id="play_btn">
+                    </button>
+
+
+                    <button id="next" class="action_btn">
+                        <img src="/next.svg" alt="">
+                    </button>
+                </div>
             </div>
 
-            <div class="progress_bar" id="progress_bar">
-                <span id="currentTime">0.00</span>
-                <span id="duration">0.00</span>
-                <span class="progress" id="progress">
-
-                </span>
-            </div>
-
-            <audio src="/Ayra-Starr-Commas-(TrendyBeatz.com).mp3" id="audio"></audio>
-            <div class="controls">
-                <button id="prev" class="action_btn">
-                    <img src="/prev.svg" class="prev" alt="">
-                </button>
-
-                <button id="play" class="action_btn action_btn_big">
-                    <img src="/play.svg" class="play" alt="" id="pause_btn">
-                    <img src="/play.svg" class="play" alt="" id="play_btn">
-                </button>
 
 
-                <button id="next" class="action_btn">
-                    <img src="/next.svg" alt="">
-                </button>
+            <div class="music_albums">
+                <img id="pinkfloyd" src="/img/bg2.jpg" alt="">
+                <img id="johnmayer" src="/img/img1.jpg" alt="">
+                <img id="tameimpala" src="/img/taj-mahal2.jpg" alt="">
+                <img id="thebeatles" src="/img/web1.png" alt="">
+                <img id="tylerthecreator" src="/img/web2.png" alt="">
             </div>
         </div>
-
-
     </div>
 
 
