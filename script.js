@@ -17,9 +17,9 @@ let musicNo = Array.from(document.querySelectorAll(".music_no")); // Convert Nod
 // Declaring songs, artist, and background color (values)
 const songs = [
     "bg",
+    "bg1",
     "bg",
-    "bg",
-    "bg",
+    "bg1",
     "bg",
   
 ];
