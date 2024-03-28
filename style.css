@@ -110,7 +110,7 @@ body {
 
 #currentTime {
     top: -5vh;
-    right: 1vw;
+    left: 0vw;
 }
 
 
@@ -160,6 +160,6 @@ body {
     cursor: pointer;
 }
 
-.music_modal_container{
+/* .music_modal_container{
     
-}
+} */
